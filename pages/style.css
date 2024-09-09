@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(189, 228, 243, 0.295);
+}
+/* header */
+.logo {
+    padding-top: 40px;
+    padding-left: 90px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+li:hover {
+    color: red;
+}
+/* header end */
+
+/**************************** main    ************************/
+
+/* heading */
+h1 {
+    font-size: 50px;
+    color: #000;
+    padding-top: 200px;
+    padding-left: 100px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.text {
+    color: #FFA500;
+}
+
+p {
+    color: gray;
+    padding-top:15px;
+    padding-left: 100px;
+    /* letter-spacing: 1px; */
+    font-size: 18px;
+    font-weight: 500;
+}
+/* heading end */
+
+/* btn */
+.btn {
+    width: 160px;
+    height: 35px ;
+    padding: 8px 20px;
+    background-color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 100px;
+    top: 460px;
+}
+/* btn end */
+
+/* icon  */
+.media {
+    position: absolute;
+    left: 130px;
+    top: 75%;
+    font-size: 25px;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+
+.bi-dribbble:hover {
+    color: #FFA500;
+}
+
+.bi-instagram:hover {
+    color: #FFA500;
+}
+
+.bi-behance:hover {
+    color: #FFA500;
+}
+/* icon end */
+
+/* image */
+.shape {
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    bottom: 20px;
+    left: 750px;
+    transition: 1s;
+}
+
+.girl {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    top: 238px;
+    left: 800px;
+    transition: 1s;
+}
+
+.img:hover .girl {
+    transform: translateX(60px);
+}
+
+.img:hover .shape {
+    transform: translateY(-60px);
+}
+/* image end */
+
+/********************** main end ******************/
